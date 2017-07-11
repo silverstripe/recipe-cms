@@ -1,0 +1,6 @@
+.cow.json export-ignore
+.editorconfig export-ignore
+.env.example export-ignore
+.gitattributes export-ignore
+LICENSE export-ignore
+README.md
