@@ -1,5 +1,5 @@
 {
-    "name": "silverstripe/recipe-core",
+    "name": "silverstripe/recipe-cms",
     "type": "silverstripe-recipe",
     "description": "SilverStripe recipe for fully featured page and asset content editing",
     "require": {
