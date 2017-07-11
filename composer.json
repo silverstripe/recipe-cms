@@ -2,6 +2,8 @@
     "name": "silverstripe/recipe-cms",
     "type": "silverstripe-recipe",
     "description": "SilverStripe recipe for fully featured page and asset content editing",
+    "homepage": "http://silverstripe.org",
+    "license": "BSD-3-Clause",
     "require": {
         "silverstripe/recipe-plugin": "^0.1",
         "silverstripe/recipe-core": "5.x-dev",
