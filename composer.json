@@ -4,16 +4,16 @@
     "description": "SilverStripe recipe for fully featured page and asset content editing",
     "require": {
         "silverstripe/recipe-plugin": "^0.1",
-        "silverstripe/recipe-core": "4.0.x-dev",
-        "silverstripe/admin": "1.0.x-dev",
-        "silverstripe/asset-admin": "1.0.x-dev",
-        "silverstripe/campaign-admin": "1.0.x-dev",
-        "silverstripe/cms": "4.0.x-dev",
-        "silverstripe/errorpage": "1.0.x-dev",
-        "silverstripe/graphql": "0.2.x-dev",
-        "silverstripe/reports": "4.0.x-dev",
-        "silverstripe/siteconfig": "4.0.x-dev",
-        "silverstripe/versioned": "1.0.x-dev"
+        "silverstripe/recipe-core": "5.x-dev",
+        "silverstripe/admin": "2.x-dev",
+        "silverstripe/asset-admin": "2.x-dev",
+        "silverstripe/campaign-admin": "2.x-dev",
+        "silverstripe/cms": "5.x-dev",
+        "silverstripe/errorpage": "2.x-dev",
+        "silverstripe/graphql": "2.x-dev",
+        "silverstripe/reports": "5.x-dev",
+        "silverstripe/siteconfig": "5.x-dev",
+        "silverstripe/versioned": "2.x-dev"
     },
     "require-dev": {
         "phpunit/PHPUnit": "^5.7"
