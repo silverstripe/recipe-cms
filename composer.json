@@ -6,16 +6,16 @@
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/recipe-plugin": ">=0.1@dev <1.0",
-        "silverstripe/recipe-core": "1.0.x-dev",
-        "silverstripe/admin": "1.0.x-dev",
-        "silverstripe/asset-admin": "1.0.x-dev",
-        "silverstripe/campaign-admin": "1.0.x-dev",
-        "silverstripe/cms": "4.0.x-dev",
-        "silverstripe/errorpage": "1.0.x-dev",
-        "silverstripe/graphql": "0.2.x-dev",
-        "silverstripe/reports": "4.0.x-dev",
-        "silverstripe/siteconfig": "4.0.x-dev",
-        "silverstripe/versioned": "1.0.x-dev"
+        "silverstripe/recipe-core": "1.0.0-beta3",
+        "silverstripe/admin": "1.0.0-beta3",
+        "silverstripe/asset-admin": "1.0.0-beta3",
+        "silverstripe/campaign-admin": "1.0.0-beta3",
+        "silverstripe/cms": "4.0.0-beta3",
+        "silverstripe/errorpage": "1.0.0-beta3",
+        "silverstripe/graphql": "0.2.6@stable",
+        "silverstripe/reports": "4.0.0-beta3",
+        "silverstripe/siteconfig": "4.0.0-beta3",
+        "silverstripe/versioned": "1.0.0-beta3"
     },
     "require-dev": {
         "phpunit/PHPUnit": "^5.7"
