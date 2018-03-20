@@ -12,7 +12,7 @@
         "silverstripe/campaign-admin": "1.2.x-dev",
         "silverstripe/cms": "4.2.x-dev",
         "silverstripe/errorpage": "1.2.x-dev",
-        "silverstripe/graphql": "1.2.x-dev",
+        "silverstripe/graphql": "2.0.x-dev",
         "silverstripe/reports": "4.2.x-dev",
         "silverstripe/siteconfig": "4.2.x-dev",
         "silverstripe/versioned": "1.2.x-dev"
