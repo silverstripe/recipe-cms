@@ -20,9 +20,16 @@
     "require-dev": {
         "phpunit/PHPUnit": "^5.7"
     },
+    "autoload": {
+        "psr-4": {},
+        "classmap": [
+            "app/src/Page.php",
+            "app/src/PageController.php"
+        ]
+    },
     "extra": {
         "project-files": [
-            "mysite/code/*"
+            "app/src/*"
         ],
         "branch-alias": {
             "1.x-dev": "1.2.x-dev"
