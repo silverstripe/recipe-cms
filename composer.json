@@ -5,7 +5,7 @@
     "homepage": "http://silverstripe.org",
     "license": "BSD-3-Clause",
     "require": {
-        "silverstripe/recipe-plugin": "^1",
+        "silverstripe/recipe-plugin": "^1.2",
         "silverstripe/recipe-core": "1.2.x-dev",
         "silverstripe/admin": "1.2.x-dev",
         "silverstripe/asset-admin": "1.2.x-dev",
@@ -20,9 +20,16 @@
     "require-dev": {
         "phpunit/PHPUnit": "^5.7"
     },
+    "autoload": {
+        "psr-4": {},
+        "classmap": [
+            "app/src/Page.php",
+            "app/src/PageController.php"
+        ]
+    },
     "extra": {
         "project-files": [
-            "mysite/code/*"
+            "app/src/*"
         ],
         "branch-alias": {
             "1.x-dev": "1.2.x-dev"
