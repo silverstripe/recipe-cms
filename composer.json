@@ -21,7 +21,6 @@
         "phpunit/PHPUnit": "^5.7"
     },
     "autoload": {
-        "psr-4": {},
         "classmap": [
             "app/src/Page.php",
             "app/src/PageController.php"
