@@ -6,7 +6,7 @@
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/recipe-plugin": "^1.2",
-        "silverstripe/recipe-core": "2.x-dev",
+        "silverstripe/recipe-core": "5.x-dev",
         "silverstripe/admin": "2.x-dev",
         "silverstripe/asset-admin": "2.x-dev",
         "silverstripe/campaign-admin": "2.x-dev",
@@ -25,7 +25,7 @@
             "app/src/*"
         ],
         "branch-alias": {
-            "dev-master": "2.x-dev"
+            "dev-master": "5.x-dev"
         }
     },
     "config": {
