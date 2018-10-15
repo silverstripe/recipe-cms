@@ -15,7 +15,8 @@
         "silverstripe/graphql": "4.x-dev",
         "silverstripe/reports": "5.x-dev",
         "silverstripe/siteconfig": "5.x-dev",
-        "silverstripe/versioned": "2.x-dev"
+        "silverstripe/versioned": "2.x-dev",
+        "silverstripe/versioned-admin": "2.x-dev"
     },
     "require-dev": {
         "phpunit/PHPUnit": "^5.7"
