@@ -24,10 +24,7 @@
     "extra": {
         "project-files": [
             "app/src/*"
-        ],
-        "branch-alias": {
-            "4.x-dev": "4.3.x-dev"
-        }
+        ]
     },
     "config": {
         "process-timeout": 600
