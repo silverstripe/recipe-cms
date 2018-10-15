@@ -10,7 +10,7 @@
         "silverstripe/admin": "1.4.x-dev",
         "silverstripe/asset-admin": "1.4.x-dev",
         "silverstripe/campaign-admin": "1.4.x-dev",
-        "silverstripe/versioned-admin": "1.1.x-dev",
+        "silverstripe/versioned-admin": "1.2.x-dev",
         "silverstripe/cms": "4.4.x-dev",
         "silverstripe/errorpage": "1.4.x-dev",
         "silverstripe/graphql": "3.1.x-dev",
