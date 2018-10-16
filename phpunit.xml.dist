@@ -1,0 +1,14 @@
+<phpunit bootstrap="vendor/silverstripe/cms/tests/bootstrap.php" colors="true">
+    <testsuite name="recipe-cms">
+        <directory>vendor/silverstripe/admin/tests</directory>
+        <directory>vendor/silverstripe/asset-admin/tests</directory>
+        <directory>vendor/silverstripe/campaign-admin/tests</directory>
+        <directory>vendor/silverstripe/cms/tests</directory>
+        <directory>vendor/silverstripe/errorpage/tests</directory>
+        <directory>vendor/silverstripe/graphql/tests</directory>
+        <directory>vendor/silverstripe/reports/tests</directory>
+        <directory>vendor/silverstripe/siteconfig/tests</directory>
+        <directory>vendor/silverstripe/versioned/tests</directory>
+        <directory>vendor/silverstripe/versioned-admin/tests</directory>
+    </testsuite>
+</phpunit>
