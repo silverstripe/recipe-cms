@@ -5,7 +5,7 @@
     "homepage": "http://silverstripe.org",
     "license": "BSD-3-Clause",
     "require": {
-        "silverstripe/recipe-plugin": "^1.4",
+        "silverstripe/recipe-plugin": "^1.2",
         "silverstripe/recipe-core": "4.4.x-dev",
         "silverstripe/admin": "1.4.x-dev",
         "silverstripe/asset-admin": "1.4.x-dev",
