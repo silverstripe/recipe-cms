@@ -19,14 +19,14 @@
         "silverstripe/versioned": "1.4.x-dev"
     },
     "require-dev": {
-        "phpunit/PHPUnit": "^5.7"
+        "phpunit/phpunit": "^5.7"
     },
     "extra": {
         "project-files": [
             "app/src/*"
         ],
         "branch-alias": {
-            "4.x-dev": "4.4.x-dev"
+            "4.x-dev": "4.5.x-dev"
         },
         "resources-dir": "_resources"
     },
