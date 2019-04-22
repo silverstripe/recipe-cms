@@ -18,7 +18,7 @@
         "silverstripe/versioned": "1.2.x-dev"
     },
     "require-dev": {
-        "phpunit/PHPUnit": "^5.7"
+        "phpunit/phpunit": "^5.7"
     },
     "extra": {
         "project-files": [
