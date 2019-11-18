@@ -25,9 +25,6 @@
         "project-files": [
             "app/src/*"
         ],
-        "branch-alias": {
-            "4.x-dev": "4.5.x-dev"
-        },
         "resources-dir": "_resources"
     },
     "config": {
