@@ -18,7 +18,7 @@ matrix:
       env: DB=PGSQL
     - php: 7.3
       env: DB=MYSQL
-    - php: 7.3
+    - php: 7.4
       env: DB=MYSQL
 
 before_script:
