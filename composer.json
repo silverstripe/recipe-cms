@@ -24,7 +24,8 @@
     },
     "extra": {
         "project-files": [
-            "app/src/*"
+            "app/src/*",
+            "themes/*"
         ],
         "resources-dir": "_resources"
     },
