@@ -27,11 +27,13 @@ before_script:
 
   - composer validate
   - composer require --no-update silverstripe-themes/simple:~3.2.0
-  - if [[ $DB == PGSQL ]]; then composer require silverstripe/postgresql:2.x-dev --no-update; fi
+  # Fix for running phpunit 5 on php 7.4+
+  - composer require --no-update sminnee/phpunit-mock-objects:^3
+  - if [[ $DB == PGSQL ]]; then composer require silverstripe/postgresql:^2 --no-update; fi
   - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
 
   # Validate cow schema
-  - composer global require silverstripe/cow ^2
+  - composer global require silverstripe/cow:^2
   - ~/.config/composer/vendor/bin/cow schema:validate
 
 script:
