@@ -13,13 +13,15 @@ env:
 matrix:
   include:
     - php: 7.1
-      env: DB=MYSQL
+      env: DB=MYSQL COMPOSER_ARG=--prefer-lowest
     - php: 7.2
       env: DB=PGSQL
     - php: 7.3
       env: DB=MYSQL
     - php: 7.4
       env: DB=MYSQL
+    - php: nightly
+      env: DB=MYSQL COMPOSER_ARG=--ignore-platform-reqs
 
 before_script:
   - phpenv rehash
@@ -28,7 +30,7 @@ before_script:
   - composer validate
   - composer require --no-update silverstripe-themes/simple:~3.2.0
   - if [[ $DB == PGSQL ]]; then composer require silverstripe/postgresql:2.x-dev --no-update; fi
-  - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
+  - composer update --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile $COMPOSER_ARG
 
   # Validate cow schema
   - composer global require silverstripe/cow ^2
