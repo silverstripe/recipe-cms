@@ -33,7 +33,7 @@ before_script:
   - composer update --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile $COMPOSER_ARG
 
   # Validate cow schema
-  - composer global require silverstripe/cow ^2
+  - composer global require silverstripe/cow dev-master $COMPOSER_ARG
   - ~/.config/composer/vendor/bin/cow schema:validate
 
 script:
