@@ -7,17 +7,17 @@
     "require": {
         "php": "^7.1 || ^8",
         "silverstripe/recipe-plugin": "^1.2",
-        "silverstripe/recipe-core": "4.x-dev",
-        "silverstripe/admin": "1.x-dev",
-        "silverstripe/asset-admin": "1.x-dev",
-        "silverstripe/campaign-admin": "1.x-dev",
-        "silverstripe/versioned-admin": "1.x-dev",
-        "silverstripe/cms": "4.x-dev",
-        "silverstripe/errorpage": "1.x-dev",
-        "silverstripe/graphql": "3.x-dev",
-        "silverstripe/reports": "4.x-dev",
-        "silverstripe/siteconfig": "4.x-dev",
-        "silverstripe/versioned": "1.x-dev"
+        "silverstripe/recipe-core": "4.7.x-dev",
+        "silverstripe/admin": "1.7.x-dev",
+        "silverstripe/asset-admin": "1.7.x-dev",
+        "silverstripe/campaign-admin": "1.7.x-dev",
+        "silverstripe/versioned-admin": "1.7.x-dev",
+        "silverstripe/cms": "4.7.x-dev",
+        "silverstripe/errorpage": "1.7.x-dev",
+        "silverstripe/reports": "4.7.x-dev",
+        "silverstripe/siteconfig": "4.7.x-dev",
+        "silverstripe/versioned": "1.7.x-dev",
+        "silverstripe/graphql": "3.4.x-dev"
     },
     "require-dev": {
         "sminnee/phpunit": "^5.7",
