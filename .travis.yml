@@ -1,40 +1,9 @@
-language: php
+version: ~> 1.0
 
-dist: xenial
-
-services:
-  - mysql
-  - postgresql
+import:
+  - silverstripe/silverstripe-travis-shared:config/provision/self-jobs-range.yml
 
 env:
   global:
-    - COMPOSER_ROOT_VERSION=4.x-dev
-
-matrix:
-  include:
-    - php: 7.1
-      env: DB=MYSQL COMPOSER_ARG=--prefer-lowest
-    - php: 7.2
-      env: DB=PGSQL
-    - php: 7.3
-      env: DB=MYSQL
-    - php: 7.4
-      env: DB=MYSQL
-    - php: nightly
-      env: DB=MYSQL COMPOSER_ARG=--ignore-platform-reqs
-
-before_script:
-  - phpenv rehash
-  - phpenv config-rm xdebug.ini
-
-  - composer validate
-  - composer require --no-update silverstripe-themes/simple:~3.2.0
-  - if [[ $DB == PGSQL ]]; then composer require silverstripe/postgresql:2.x-dev --no-update; fi
-  - composer update --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile $COMPOSER_ARG
-
-  # Validate cow schema
-  - composer global require silverstripe/cow dev-master $COMPOSER_ARG
-  - ~/.config/composer/vendor/bin/cow schema:validate
-
-script:
-  - vendor/bin/phpunit --testsuite recipe-cms
+    - COMPOSER_ROOT_VERSION="4.x-dev"
+    - PHPUNIT_SUITE="recipe-cms"
