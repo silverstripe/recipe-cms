@@ -5,5 +5,4 @@ import:
 
 env:
   global:
-    - COMPOSER_ROOT_VERSION="4.x-dev"
     - PHPUNIT_SUITE="recipe-cms"
