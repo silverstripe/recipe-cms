@@ -16,7 +16,7 @@
         "silverstripe/errorpage": "1.8.x-dev",
         "silverstripe/reports": "4.8.x-dev",
         "silverstripe/siteconfig": "4.8.x-dev",
-        "silverstripe/versioned": "1.x-dev",
+        "silverstripe/versioned": "1.8.x-dev",
         "silverstripe/graphql": "3.5.x-dev || 4.x-dev"
     },
     "require-dev": {
