@@ -21,6 +21,7 @@ Provided by [silverstripe/recipe-cms]:
  * [errorpage](http://github.com/silverstripe/silverstripe-errorpage)
  * [reports](http://github.com/silverstripe/silverstripe-reports)
  * [graphql](http://github.com/silverstripe/silverstripe-graphql)
+ * [session-manager](http://github.com/silverstripe/silverstripe-session-manager)
  * [siteconfig](http://github.com/silverstripe/silverstripe-siteconfig)
  * [versioned](http://github.com/silverstripe/silverstripe-versioned)
 

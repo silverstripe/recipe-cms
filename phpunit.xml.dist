@@ -7,6 +7,7 @@
         <directory>vendor/silverstripe/errorpage/tests</directory>
         <directory>vendor/silverstripe/graphql/tests</directory>
         <directory>vendor/silverstripe/reports/tests</directory>
+        <directory>vendor/silverstripe/session-manager/tests</directory>
         <directory>vendor/silverstripe/siteconfig/tests</directory>
         <directory>vendor/silverstripe/versioned/tests</directory>
         <directory>vendor/silverstripe/versioned-admin/tests</directory>
