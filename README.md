@@ -1,6 +1,6 @@
 ## SilverStripe CMS Recipe
 
-[![Build Status](https://api.travis-ci.com/silverstripe/recipe-cms.svg?branch=4)](https://travis-ci.com/silverstripe/recipe-cms)
+[![CI](https://github.com/silverstripe/recipe-cms/actions/workflows/ci.yml/badge.svg)](https://github.com/silverstripe/recipe-cms/actions/workflows/ci.yml)
 
 Base page and asset content-editing recipe for a SilverStripe ([http://silverstripe.org](http://silverstripe.org))
 installation. This includes the modules:
