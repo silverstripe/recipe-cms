@@ -1,8 +1,0 @@
-version: ~> 1.0
-
-import:
-  - silverstripe/silverstripe-travis-shared:config/provision/self-jobs-range.yml
-
-env:
-  global:
-    - PHPUNIT_SUITE="recipe-cms"
