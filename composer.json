@@ -26,8 +26,7 @@
     "extra": {
         "project-files": [
             "app/src/*"
-        ],
-        "resources-dir": "_resources"
+        ]
     },
     "config": {
         "process-timeout": 600
