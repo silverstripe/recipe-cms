@@ -6,7 +6,7 @@
     "license": "BSD-3-Clause",
     "require": {
         "php": "^8.1",
-        "silverstripe/recipe-plugin": "^2",
+        "silverstripe/recipe-plugin": "2.0.x-dev",
         "silverstripe/recipe-core": "5.0.x-dev",
         "silverstripe/admin": "2.0.x-dev",
         "silverstripe/asset-admin": "2.0.x-dev",
