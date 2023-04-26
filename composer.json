@@ -7,18 +7,18 @@
     "require": {
         "php": "^7.4 || ^8.0",
         "silverstripe/recipe-plugin": "^1.7",
-        "silverstripe/recipe-core": "4.13.x-dev",
-        "silverstripe/admin": "1.13.x-dev",
-        "silverstripe/asset-admin": "1.13.x-dev",
-        "silverstripe/campaign-admin": "1.13.x-dev",
-        "silverstripe/versioned-admin": "1.13.x-dev",
-        "silverstripe/cms": "4.13.x-dev",
-        "silverstripe/errorpage": "1.13.x-dev",
-        "silverstripe/reports": "4.13.x-dev",
-        "silverstripe/siteconfig": "4.13.x-dev",
-        "silverstripe/versioned": "1.13.x-dev",
-        "silverstripe/graphql": "3.8.x-dev || 4.3.x-dev",
-        "silverstripe/session-manager": "1.5.x-dev"
+        "silverstripe/recipe-core": "4.x-dev",
+        "silverstripe/admin": "1.x-dev",
+        "silverstripe/asset-admin": "1.x-dev",
+        "silverstripe/campaign-admin": "1.x-dev",
+        "silverstripe/versioned-admin": "1.x-dev",
+        "silverstripe/cms": "4.x-dev",
+        "silverstripe/errorpage": "1.x-dev",
+        "silverstripe/reports": "4.x-dev",
+        "silverstripe/siteconfig": "4.x-dev",
+        "silverstripe/versioned": "1.x-dev",
+        "silverstripe/graphql": "3.x-dev || 4.x-dev",
+        "silverstripe/session-manager": "1.x-dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
