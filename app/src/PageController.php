@@ -4,6 +4,10 @@ namespace {
 
     use SilverStripe\CMS\Controllers\ContentController;
 
+    /**
+     * @template T of Page
+     * @extends ContentController<T>
+     */
     class PageController extends ContentController
     {
         /**
