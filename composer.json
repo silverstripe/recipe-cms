@@ -21,7 +21,9 @@
         "silverstripe/session-manager": "2.1.x-dev"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.6"
+        "phpunit/phpunit": "^9.6",
+        "silverstripe/standards": "^1",
+        "phpstan/extension-installer": "^1.3"
     },
     "extra": {
         "project-files": [
