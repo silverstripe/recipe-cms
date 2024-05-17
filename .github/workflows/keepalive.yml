@@ -1,9 +1,9 @@
 name: Keepalive
 
 on:
-  # At 3:15 PM UTC, on day 24 of the month
+  # At 6:30 AM UTC, on day 19 of the month
   schedule:
-    - cron: '15 15 24 * *'
+    - cron: '30 6 19 * *'
   workflow_dispatch:
 
 permissions: {}
