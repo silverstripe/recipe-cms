@@ -10,7 +10,6 @@
         "silverstripe/recipe-core": "6.x-dev",
         "silverstripe/admin": "3.x-dev",
         "silverstripe/asset-admin": "3.x-dev",
-        "silverstripe/campaign-admin": "3.x-dev",
         "silverstripe/versioned-admin": "3.x-dev",
         "silverstripe/cms": "6.x-dev",
         "silverstripe/errorpage": "3.x-dev",
