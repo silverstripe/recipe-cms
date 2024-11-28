@@ -4,7 +4,6 @@
         <testsuite name="recipe-cms">
             <directory>vendor/silverstripe/admin/tests</directory>
             <directory>vendor/silverstripe/asset-admin/tests</directory>
-            <directory>vendor/silverstripe/campaign-admin/tests</directory>
             <directory>vendor/silverstripe/cms/tests</directory>
             <directory>vendor/silverstripe/errorpage/tests</directory>
             <directory>vendor/silverstripe/reports/tests</directory>
