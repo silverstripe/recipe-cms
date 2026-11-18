@@ -7,16 +7,16 @@
     "require": {
         "php": "^8.3",
         "silverstripe/recipe-plugin": "2.x-dev",
-        "silverstripe/recipe-core": "6.x-dev",
-        "silverstripe/admin": "3.x-dev",
-        "silverstripe/asset-admin": "3.x-dev",
-        "silverstripe/versioned-admin": "3.x-dev",
-        "silverstripe/cms": "6.x-dev",
-        "silverstripe/errorpage": "3.x-dev",
-        "silverstripe/reports": "6.x-dev",
-        "silverstripe/siteconfig": "6.x-dev",
-        "silverstripe/versioned": "3.x-dev",
-        "silverstripe/session-manager": "3.x-dev"
+        "silverstripe/recipe-core": "7.x-dev",
+        "silverstripe/admin": "4.x-dev",
+        "silverstripe/asset-admin": "4.x-dev",
+        "silverstripe/versioned-admin": "4.x-dev",
+        "silverstripe/cms": "7.x-dev",
+        "silverstripe/errorpage": "4.x-dev",
+        "silverstripe/reports": "7.x-dev",
+        "silverstripe/siteconfig": "7.x-dev",
+        "silverstripe/versioned": "4.x-dev",
+        "silverstripe/session-manager": "4.x-dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^11.3",
