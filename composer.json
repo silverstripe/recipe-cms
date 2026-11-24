@@ -15,6 +15,7 @@
         "silverstripe/errorpage": "3.x-dev",
         "silverstripe/reports": "6.x-dev",
         "silverstripe/siteconfig": "6.x-dev",
+        "silverstripe/userdocs-admin": "1.x-dev",
         "silverstripe/versioned": "3.x-dev",
         "silverstripe/session-manager": "3.x-dev"
     },
